@@ -73,12 +73,10 @@ def countFun(lbl,type):
             elif b=='/':
                 if count!=0:
                     count=round(a/count)
-                    
                 else:
                     count=0  
                 lbl.config(text=str(count))
                 b=None
-            
             
     if type=='C': 
         count=0
